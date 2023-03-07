@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Comic Manager</string>
+    <string name="title_dangnhap"> Log in</string>
+    <string name="title_dn">Log In</string>
+    <string name="title_dstruyen">List comic</string>
+    <string name="title_dsnxb">List Product</string>
+    <string name="title_them">Add</string>
+    <string name="title_manxb">ID Product</string>
+    <string name="title_tennxb">Name</string>
+    <string name="title_matruyen">ID Comic</string>
+    <string name="title_tentruyen">Name Comic</string>
+    <string name="title_tomtat">Preview</string>
+    <string name="title_gia">Price</string>
+    <string name="title_xuatxua">Xuat Xu</string>
+    <string name="title_nsx">Product</string>
+    <string name="title_hinhsp">Hinh</string>
+    <string name="title_sua">Change</string>
+    <string name="title_chitietNXB">Product Details</string>
+    <string name="title_capnhatTruyen">Update Comic</string>
+    <string name="title_chitietTruyen">Comic Details</string>
+    <string name="title_xoa">Delete</string>
+    <string name="title_themhinh">Add image</string>
+</resources>

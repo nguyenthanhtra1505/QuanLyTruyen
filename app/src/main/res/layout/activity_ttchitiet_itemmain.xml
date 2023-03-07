@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityChiTietTruyen">
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_dsmain"
+        />
+    <ImageView
+        android:id="@+id/img_chitiet"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/back"
+        app:layout_constraintStart_toStartOf="@id/back"
+        app:layout_constraintTop_toTopOf="@id/back" />
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_tentruyen"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_chitiet"
+        android:layout_marginEnd="70dp"
+        />
+    <TextView
+        android:id="@+id/ten_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@id/ten"
+        app:layout_constraintTop_toBottomOf="@id/img_chitiet"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_matruyen"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ten_chitiet"
+        android:layout_marginEnd="70dp"
+        />
+    <TextView
+        android:id="@+id/ma_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/ma"
+        app:layout_constraintTop_toBottomOf="@id/ten_chitiet"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nxb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_nsx"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ma_chitiet"
+        android:layout_marginEnd="150dp"
+        />
+    <TextView
+        android:id="@+id/nxb_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhà xuất bản"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@id/nxb"
+        app:layout_constraintTop_toBottomOf="@id/ma_chitiet"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tomtat_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/title_tomtat"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nxb_chitiet" />
+
+    <TextView
+        android:id="@+id/ndtomtat_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tom tat"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@id/tomtat_chitiet"
+        app:layout_constraintTop_toBottomOf="@id/tomtat_chitiet" />
+
+    <TextView
+        android:id="@+id/giatruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_gia"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@id/tomtat_chitiet"
+        app:layout_constraintTop_toBottomOf="@id/ndtomtat_chitiet" />
+    <TextView
+        android:id="@+id/giatruyen_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="100000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@id/giatruyen"
+        app:layout_constraintTop_toBottomOf="@id/ndtomtat_chitiet" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabthemtruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="290dp"
+        android:layout_marginBottom="75mm"
+        android:src="@drawable/icon_them"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

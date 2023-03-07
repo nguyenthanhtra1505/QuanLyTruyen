@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/background_dsmain.xml" value="0.2355" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/background_main.xml" value="0.2355" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/dangnhap_background.xml" value="0.198" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/dangnhap_button_background.xml" value="0.198" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/dangnhap_edittxt_bachkground.xml" value="0.198" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2455" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity.xml" value="0.1826835902085222" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_about.xml" value="0.14596554850407978" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_chi_tiet_nxb.xml" value="0.14596554850407978" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_dang_nhap.xml" value="0.17951042611060744" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_dangnhap.xml" value="0.15217391304347827" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_danh_sach_tg.xml" value="0.1826835902085222" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_danh_sach_truyen.xml" value="0.17951042611060744" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_dsnxb.xml" value="0.2" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_dstac_gia.xml" value="0.1482320942883046" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_dstruyen.xml" value="0.1482320942883046" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_item_main.xml" value="0.1826835902085222" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_itemds.xml" value="0.17951042611060744" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_itemdstruyen.xml" value="0.264" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_themtruyen.xml" value="0.17951042611060744" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_ttchitiet_itemmain.xml" value="0.1826835902085222" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_ttchitiet_tacgia.xml" value="0.15231187669990934" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_xu_ly_nxb.xml" value="0.16" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_xu_ly_tac_gia.xml" value="0.1482320942883046" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/activity_xu_ly_truyen.xml" value="0.1482320942883046" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/layout/thongbaoxoa.xml" value="0.128" />
+        <entry key="..\:/thietbididong/Doan_lythuyet/ungdungquanlytruyen/app/src/main/res/menu/activity_menu.xml" value="0.20863616930312098" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

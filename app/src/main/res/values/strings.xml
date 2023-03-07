@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuanLyTruyen</string>
+    <string name="title_dangnhap"> Dang Nhap</string>
+    <string name="title_dn">Đăng nhập</string>
+    <string name="title_dstruyen">Danh Sách Truyện</string>
+    <string name="title_dsnxb">Danh Sách Nhà Xuất Bản</string>
+    <string name="title_them">Thêm</string>
+    <string name="title_manxb">Mã NXB</string>
+    <string name="title_tennxb">Tên NXB</string>
+    <string name="title_matruyen">Mã Truyện</string>
+    <string name="title_tentruyen">Tên Truyện</string>
+    <string name="title_tomtat">Tóm tắt</string>
+    <string name="title_gia">Gía truyện</string>
+    <string name="title_xuatxua">Xuat Xu</string>
+    <string name="title_nsx">Nhà Xuất Bản</string>
+    <string name="title_hinhsp">Hinh</string>
+    <string name="title_sua">Sửa</string>
+    <string name="title_chitietNXB">Chi Tiết Nhà Sản Xuất</string>
+    <string name="title_capnhatTruyen">Cặp nhật truyện</string>
+    <string name="title_chitietTruyen">Chi Tiết Truyện</string>
+    <string name="title_xoa">Xóa</string>
+    <string name="title_themhinh">Thêm hình</string>
+</resources>

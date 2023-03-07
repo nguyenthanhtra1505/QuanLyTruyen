@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAbout">
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_dsmain"
+        />
+    <ImageView
+        android:id="@+id/img_chitiet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/back"
+        app:layout_constraintStart_toStartOf="@id/back"
+        app:layout_constraintTop_toTopOf="@id/back"
+        android:src="@drawable/icons8_home"
+        />
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_chitiet"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:id="@+id/ten_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Thanh Trà"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+       app:layout_constraintStart_toEndOf="@id/ten"
+        app:layout_constraintTop_toBottomOf="@id/img_chitiet"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp:"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ten_chitiet"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:id="@+id/ma_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D19_TH01"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/ten_chitiet"
+        app:layout_constraintStart_toEndOf="@+id/ma"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nxb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã:"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/ma_chitiet"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:id="@+id/nxb_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DH51904681"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toEndOf="@+id/nxb"
+        app:layout_constraintTop_toBottomOf="@id/ma_chitiet"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tomtat_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Email: "
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nxb_chitiet" />
+
+    <TextView
+        android:id="@+id/ndtomtat_chitiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="dh51904681@student.stu.edu.vn"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="@id/tomtat_chitiet"
+        app:layout_constraintTop_toBottomOf="@id/tomtat_chitiet" />
+
+    <TextView
+        android:id="@+id/giatruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Số điện thoại: "
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tomtat_chitiet"
+        app:layout_constraintTop_toBottomOf="@id/ndtomtat_chitiet" />
+    <TextView
+        android:id="@+id/sodienthoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0969884949"
+        android:textSize="22dp"
+        app:layout_constraintStart_toEndOf="@id/giatruyen"
+        app:layout_constraintTop_toBottomOf="@id/ndtomtat_chitiet" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
